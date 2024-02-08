@@ -1,0 +1,45 @@
+.calculatorForm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.result {
+    width: 100px;
+    height: 22px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid black;
+}
+h1 {
+    text-align: center;
+}
+.calculatorForm .operator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+#calculationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form {
+    text-align: start;
+    line-height: 1.5;
+}
+h3{
+    /* text-align: start; */
+    width: 100px;
+}
+.operand{
+    outline: none;
+}
+.btn{
+    background-color: #fff;
+    outline: none;
+    border: 1px solid black;
